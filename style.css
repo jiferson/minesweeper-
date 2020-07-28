@@ -1,0 +1,25 @@
+.grid {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  background: grey;
+  box-sizing: border-box;
+}
+
+/* divs inside a grid */
+/* other squares */
+.grid div {
+  height: 37.8px;
+  width: 37.8px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checked {
+  background-color: palegoldenrod;
+}
